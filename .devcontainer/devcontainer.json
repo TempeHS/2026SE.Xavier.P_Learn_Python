@@ -1,0 +1,41 @@
+{
+  "name": "Python Flask Development Container",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "hostRequirements": {
+    "cpus": 4
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "pip install -r requirements.txt",
+  "postCreateCommand": "",
+  "postAttachCommand": {},
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.autoSave": "onFocusChange",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.fontSize": 18,
+        "terminal.integrated.defaultProfile.windows": "Git Bash",
+        "window.restoreWindows": "preserve",
+        "workbench.editorAssociations": {
+          "*.md": "vscode.markdown.preview.editor"
+        }
+      },
+      "extensions": [
+        "McCarter.start-git-bash",
+        "ms-python.python",
+        "esbenp.prettier-vscode",
+        "oderwat.indent-rainbow",
+        "tomoki1207.pdf",
+        "GitHub.codespaces",
+        "ms-python.debugpy",
+        "yahyabatulu.vscode-markdown-alert",
+        "bierner.markdown-preview-github-styles",
+        "mechatroner.rainbow-csv",
+        "ms-python.pylint",
+        "bierner.markdown-mermaid",
+        "ms-python.vscode-python-envs"
+      ]
+    }
+  }
+}

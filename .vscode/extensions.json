@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "McCarter.start-git-bash",
+    "medo64.render-crlf",
+    "ms-python.python",
+    "oderwat.indent-rainbow",
+    "tomoki1207.pdf",
+    "GitHub.codespaces",
+    "ms-python.debugpy",
+    "yahyabatulu.vscode-markdown-alert",
+    "bierner.markdown-preview-github-styles",
+    "mechatroner.rainbow-csv",
+    "ms-python.pylint",
+    "bierner.markdown-mermaid",
+    "ms-python.vscode-python-envs"
+  ]
+}
